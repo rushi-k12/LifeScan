@@ -36,11 +36,16 @@ Here's an overview of the model's performance across the pipeline:
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-3. Run main script:
+Run the main inference script using your desired runtime:
 
-  python notebooks/tensorflow_inference.py (for using tensorflow runtime)
-  python notebooks/tflite_inference.py (for using tflite runtime)
-  python notebooks/onnx_inference.py (for using onnx runtime)
+TensorFlow Runtime:
+python notebooks/tensorflow_inference.py
+
+TFLite Runtime (optimized for edge devices):
+python notebooks/tflite_inference.py
+
+ONNX Runtime (lightweight & fast for edge deployment):
+python notebooks/onnx_inference.py
 
 ## Edge Deployment (Raspberry Pi)
 
