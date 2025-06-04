@@ -21,7 +21,7 @@ LifeScan is a deep learning-based edge AI application designed for disaster reli
 - notebooks/ # exploratory notebooks
 - requirements.txt # Dependency file
 - 
-## 📸 Sample Results
+## Sample Results
 
 Here's an overview of the model's performance across the pipeline:
 
