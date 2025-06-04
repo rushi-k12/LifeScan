@@ -1,0 +1,7 @@
+tensorflow
+onnxruntime
+tflite-runtime
+matplotlib
+Pillow
+numpy
+opencv-python
